@@ -122,12 +122,12 @@
 
         {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <h3 style="line-height:18px;" class="resume-item-title" itemprop="name">{% if publication.link %}<a href="{{ publication.link }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h3 style="line-height:38px;" class="resume-item-title" itemprop="name">{% if publication.link %}<a href="{{ publication.link }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
           <h4  class="resume-item-details" itemprop="description">{{ publication.author }}</h4>
           
           {% if publication.image %}
           <p class="resume-item-copy">
-            <img src="{{ publication.image }}" alt="{{ publication.title }}" width="600" height="400">
+            <img src="{{ publication.image }}" alt="{{ publication.title }}" width="580" height="420">
           </p>
           {% endif %}
           {% if publication.description %}
