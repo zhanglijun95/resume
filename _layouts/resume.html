@@ -36,7 +36,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro1 }} <a href="http://sse.tongji.edu.cn/linzhang/" itemprop="url">Lin Zhang,</a> {{ site.resume_header_intro2 }}
+          {{ site.resume_header_intro1 }} <a style="text-decoration:none;" href="http://sse.tongji.edu.cn/linzhang/" itemprop="url">Lin Zhang,</a> {{ site.resume_header_intro2 }}
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -122,7 +122,7 @@
 
         {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <h3 class="resume-item-title" itemprop="name">{% if publication.link %}<a href="{{ publication.link }}" style="text-decoration:none;" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h3 class="resume-item-title" itemprop="name">{% if publication.link %}<a style="text-decoration:none;" href="{{ publication.link }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
           <h4  class="resume-item-details" itemprop="description">{{ publication.author }}</h4>
           
           {% if publication.image %}
