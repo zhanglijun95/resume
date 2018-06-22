@@ -63,9 +63,9 @@
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
               {% for item in education.detail %}
-              <li>{{ item.GPA }}</li>
-              <li>{{ item.TG }}</li>
-              <li>{{ item.Courses }}</li>
+              <li>Overall GPA: {{ item.OverallG }} &bull; Average Score: {{ item.AverageG }} {% if item.Rank %}&bull; Rank: {{ item.Rank }}{% endif %}</li>
+              {% if item.T %}<li>TOEFL: {{ item.T }} &bull; GRE: {{ item.G }}</li>{% endif %}
+              <li>Related Courses: {{ item.Courses }}</li>
               {% endfor %}
             </ul>
           </p>
@@ -77,12 +77,12 @@
       <!-- end Education -->
       {% endif %}
 
-      {% if site.resume_section_experience %}
+      {% if site.resume_section_research %}
       <!-- begin Experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Research Experience</h2>
         </header>
 
         {% for job in site.data.experience %}
