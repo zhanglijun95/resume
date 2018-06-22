@@ -1,6 +1,6 @@
 # Researches
 - title: Image Exposure Assessment&#58; A Benchmark and A Deep Convolutional Neural Networks Based Model
-  author: Lijun Zhang, Lin Zhang*, Xiao Liu, Ying Shen, and Dongqing Wang, in Proc. ICME, 2018.
+  author: Lijun Zhang, Lin Zhang*, Xiao Liu, ect, in Proc. ICME, 2018.
   link: //sse.tongji.edu.cn/linzhang/files/icme18IELA.pdf
   image: images/publication1.png
   description: (a)&sim;(f) are 6 images with various exposure levels. Their exposure scores predicted by our approach IEpsM are 1.0115, 2.0219, 2.9686, 4.1119, 5.2048, and 6.3953, respectively. The output range of IEpsM is from 1 to 7. “1” means the image is extremely underexposed, “4” means it is properly exposed, and “7” means it is extremely overexposed.
