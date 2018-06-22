@@ -62,11 +62,9 @@
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
-              {% for item in education.detail %}
-              <li>Overall GPA: {{ item.OverallG }} &bull; Average Score: {{ item.AverageG }} {% if item.Rank %}&bull; Rank: {{ item.Rank }}{% endif %}</li>
-              {% if item.T %}<li>TOEFL: {{ item.T }} &bull; GRE: {{ item.G }}</li>{% endif %}
-              <li>Related Courses: {{ item.Courses }}</li>
-              {% endfor %}
+              <li>Overall GPA: {{ education.OverallG }} &bull; Average Score: {{ education.AverageG }} {% if education.Rank %}&bull; Rank: {{ education.Rank }}{% endif %}</li>
+              {% if education.T %}<li>TOEFL: {{ education.T }} &bull; GRE: {{ education.G }}</li>{% endif %}
+              <li>Related Courses: {{ education.Courses }}</li>
             </ul>
           </p>
 
