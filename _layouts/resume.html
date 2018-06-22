@@ -89,19 +89,24 @@
           <h4 class="resume-item-details" itemprop="description">{{ research.learder }} &bull; {{ research.duration }}</h4>
           <p class="resume-item-copy" itemprop="content">
             <ul class="resume-item-list">
-              {% for detail in research.details}
+              {% for detail in research.details %}
                 <li>{{ detail.detail }}</li>
               {% endfor %}
             </ul>
           </p>
-          
+          {% if research.media %}
+          <p class="resume-item-copy">
+            <embed src="{{ research.media }}" width="480" height="400" type="application/x-shockwave-flash">
+            </embed>
+          </p>
+          {% endif %}
         </div><!-- end of resume-item -->
         {% endfor %}
 
       </section>
       <!-- end Research -->
       {% endif %}
-      
+
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
