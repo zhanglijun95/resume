@@ -11,5 +11,5 @@
   image: images/publication2.png
   description: (a)&sim;(d) are four face images. Their illumination quality scores predicted by our approach FIIQA are 0.0, 0.503, 0.670, and 1.0, respectively. From 0 to 1, the illumation quality of face images are from low to high. 
 
-- title: Application of Generative Adversarial Network in Specific Problems
-  author: Directed by Prof. Lin Zhang
+- title: No reference Quality Assessment Algorithm for Image Exposure Based on Neural Network
+  author: Lin Zhang, Lijun Zhang, Xiao Liu, and Ying Shen, accepted by The Patent Office of the People's Republic of China.

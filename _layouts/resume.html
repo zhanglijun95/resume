@@ -122,7 +122,7 @@
 
         {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <h3 style="line-height:32px;" class="resume-item-title" itemprop="name">{% if publication.link %}<a href="{{ publication.link }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h3 style="line-height:30px;" class="resume-item-title" itemprop="name">{% if publication.link %}<a href="{{ publication.link }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
           <h4  class="resume-item-details" itemprop="description">{{ publication.author }}</h4>
           
           {% if publication.image %}
@@ -165,12 +165,12 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Techical Strength</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <h4 class="resume-item-details">{{ skill.type }}</h4>
+          <p class="resume-item-copy">{{ skill.content }}</p>
         </div>
         {% endfor %}
 
