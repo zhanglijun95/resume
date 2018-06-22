@@ -11,3 +11,20 @@
   year: 2004
   award: Most likely to succeed
   summary: You can choose to have either a single or multiple awards
+
+- degree: M.Sc. in Software Engineering
+  uni: Tongji University
+  year: 2016 &mdash; 2019
+  detail:
+    - GPA: Overall GPA: 4.63/5.0	Average Score: 90.8/100
+    - TG: TOEFL:96	GRE:V153 + Q170 + AW3.5
+    - Courses: Related Courses: Advanced Topics in Image Processing, Machine Learning Theories and Applications, Pattern Recognition, Software Modeling and Analysis, Distributed Computing, etc.
+  summary:
+
+- degree: B.Eng. in Software Engineering
+  uni: Tongji University
+  year: 2012 &mdash; 2016
+  detail:
+    - GPA: Overall GPA: 4.78/5.0	Average Score: 92.8/100		Rank: 1/160
+    - Courses: Related Courses: Digital Image Processing, Computer Graphics, Computer Vision, Virtual Reality, 3D Animation and Post Production, User Interface Interaction, Operating Systems, etc.
+  summary:

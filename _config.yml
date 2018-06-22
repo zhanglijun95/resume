@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Lijun Zhang"
-resume_title:                   "PHD applicant"
+resume_title:                   "PHD Applicant Resume"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "zljabroad@outlook.com"
@@ -23,8 +23,8 @@ resume_contact_address:         "4800 Cao’an Road, Tongji University, Shanghai
 resume_header_contact_info:     "4800 Cao’an Road, Tongji University, Shanghai, China • +86-18817870825 • zljabroad@outlook.com"
 display_header_contact_info:    "true"
 
-resume_header_intro1: "<p>I am a graduate student in School of Software Engneering, Tongji University, supervised by associate professor</p>"
-resume_header_intro2: "<p>In the postgraduate stage, my research interets are Machine Learning, Computer Vision, and Image Quality Assessment. I hope to continue my study abroad and thus I am looking for PHD positions of 2019 fall. Looking forward to your contacting!</p>"
+resume_header_intro1: "<p>I am a graduate student in School of Software Engneering, Tongji University, supervised by associate professor"
+resume_header_intro2: "who is the leader of Computer Vision Lab in Tongji. In the postgraduate stage, my research interets are Machine Learning, Computer Vision, and Image Quality Assessment. I hope to continue my study abroad and thus I am looking for PHD position of 2019 fall. Looking forward to your contacting!</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -39,10 +39,9 @@ resume_section_research:        true
 resume_section_publications:    true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_honours:         true
+resume_section_recognition:     true
 
 resume_section_experience:      true
-resume_section_recognition:     true
 resume_section_links:           true
 resume_section_associations:    true
 # resume_section_interests:       true
