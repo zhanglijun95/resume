@@ -1,0 +1,9 @@
+# Researches
+- title: Application of Generative Adversarial Network in Specific Problems
+  leader: Directed by Prof. Lin Zhang
+  duration: May,2018 &mdash; Prensent
+  details:
+  	- detail: Research on the application of GAN, including super&ndash;resolution (SR) and no-reference image quality assessment (NR-IQA).
+  	- detail: Try to promote the performance of SRGAN by introducing Wasserstein distance and gradient magnitude similarity deviation into the original loss function. Wasserstein distance could improve the stability of training process, while gradient magnitude similarity deviation could reflect the similarity of two patterns better than mean square error.
+  	- detail: Try to propose a NR-IQA method in which generating image quality feature map of a single image according to the trained GAN of pairs of distored/reference images. This new method would has the advantages of both NR-IQA and FR-IQA.
+  	- detail: A paper will be submitted to CVPR2018.
