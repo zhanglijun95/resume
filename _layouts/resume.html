@@ -112,6 +112,33 @@
       <!-- end Research -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <h3 class="resume-item-title" itemprop="name">{% if publication.link %}<a href="{{ publication.link }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publication.author }}</h4>
+          
+          {% if publication.image %}
+          <p class="resume-item-copy">
+            <img src="{{ publication.image }}" alt="{{ publication.title }}" width="640" height="480">
+          </p>
+          {% endif %}
+          {% if publication.description %}
+          <p class="resume-item-copy">{{ publication.description }}</p>
+          {% endif %}
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Publications -->
+      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->

@@ -1,0 +1,16 @@
+# Researches
+- title: Image Exposure Assessment: A Benchmark and A Deep Convolutional Neural Networks Based Model
+  author: Lijun Zhang, Lin Zhang*, Xiao Liu, Ying Shen, and Dongqing Wang, in Proc. ICME, 2018.
+  link: //sse.tongji.edu.cn/linzhang/files/icme18IELA.pdf
+  image: images/publication1.png
+  description: (a)&sim;(f) are 6 images with various exposure levels. Their exposure scores predicted by our approach IEpsM are 1.0115, 2.0219, 2.9686, 4.1119, 5.2048, and 6.3953, respectively. The output range of IEpsM is from 1 to 7. “1” means the image is extremely underexposed, “4” means it is properly exposed, and “7” means it is extremely overexposed.
+
+- title: Illumination Quality Assessment for Face Images: A Benchmark and a Convolutional Neural Networks Based Model
+  author: Lijun Zhang, Lin Zhang*, and Lida Li, in Proc. ICONIP, 2017.
+  link: //link.springer.com/chapter/10.1007%2F978-3-319-70090-8_59
+  image: images/publication2.png
+  description: (a)&sim;(d) are four face images. Their illumination quality scores predicted by our approach FIIQA are 0.0, 0.503, 0.670, and 1.0, respectively. From 0 to 1, the illumation quality of face images are from low to high. 
+
+- title: Application of Generative Adversarial Network in Specific Problems
+  author: Directed by Prof. Lin Zhang
+  link: May, 2018 &mdash; Prensent
