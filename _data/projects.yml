@@ -1,16 +1,16 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
+- project: Cooperative Project of Production, Learning and Research
+  role: Head of the Development Group & Primary Developer
+  duration: Oct, 2016 &mdash; Jan, 2018
+  description:
+    - detail: Research on image quality evaluation for mobile camera.
+    - detail: Responsible for the algorithm development of multidimensional quality evaluation of images, including noise, blur, exposure, contrast and overall quality of images.
+    - detail: Establish an image exposure database by code generation, and propose a method for image exposure assessment based on convolutional neural network.
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: CCF-Tencent Rhino Bird Fund Project
+  role: Primary Developer
+  duration: Jan, 2016 &mdash; Oct, 2016
+  description:
+    - detail: Research on multi biometric fusion based on smart phone and cloud computing platform.
+    - detail: Responsible for a part of this project which is face images illumination quality assessment, namely evaluating illumination quality for face images.
+    - detail: Establish a face database with diverse illumination situations by illumination transfer algorithm, and  propose a method for face images illumination quality assessment based on convolutional neural network.
