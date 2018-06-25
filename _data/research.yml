@@ -5,7 +5,7 @@
   details:
     - detail: Research on the application of GAN, including super-resolution (SR) and no-reference image quality assessment (NR-IQA).
     - detail: Try to promote the performance of SRGAN by introducing Wasserstein distance and gradient magnitude similarity deviation into the original loss function. Wasserstein distance could improve the stability of training process, while gradient magnitude similarity deviation could reflect the similarity of two patterns better than mean square error.
-    - detail: Propose a NR-IQA method in which generating image quality feature map of a single image according to the trained GAN of pairs of distored/reference images. This new method would has the advantages of both NR-IQA and FR-IQA.
+    - detail: Propose a NR-IQA method in which generating image quality feature map of a single image according to the trained GAN of pairs of distorted/reference images. This new method would has the advantages of both NR-IQA and FR-IQA.
     - detail: A paper is in preparation to submit to CVPR2018.
 
 - title: Image Automatic Exposure Correction
