@@ -56,7 +56,7 @@ resume_social_links:
   # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "http://zhanglijun95.github.io/resume/"
-  resume_medium_url:            "zljabroad@outlook.com"
+  # resume_medium_url:            "zljabroad@outlook.com"
 resume_print_social_links:      true
 
 # Design settings
