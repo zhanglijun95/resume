@@ -1,15 +1,21 @@
 # Researches
 - title: Image Exposure Assessment&#58; A Benchmark and A Deep Convolutional Neural Networks Based Model
-  author: Lijun Zhang, Lin Zhang*, Xiao Liu, ect., in Proc. ICME, 2018.
-  link: //sse.tongji.edu.cn/linzhang/files/icme18IELA.pdf
+  author: Lijun Zhang, Lin Zhang*, Xiao Liu, ect., in ICME, 2018, pp. 1-6.
+  link: //ieeexplore.ieee.org/abstract/document/8486569
   image: images/publication1.png
   description: (a)&sim;(f) are 6 images with various exposure levels. Their exposure scores predicted by our approach IEpsM are 1.0115, 2.0219, 2.9686, 4.1119, 5.2048, and 6.3953, respectively. The output range of IEpsM is from 1 to 7. “1” means the image is extremely underexposed, “4” means it is properly exposed, and “7” means it is extremely overexposed.
 
 - title: Illumination Quality Assessment for Face Images&#58; A Benchmark and a Convolutional Neural Networks Based Model
-  author: Lijun Zhang, Lin Zhang*, and Lida Li, in Proc. ICONIP, 2017.
+  author: Lijun Zhang, Lin Zhang*, and Lida Li, in ICONIP, 2017, pp. 583-593.
   link: //link.springer.com/chapter/10.1007%2F978-3-319-70090-8_59
   image: images/publication2.png
   description: (a)&sim;(d) are four face images. Their illumination quality scores predicted by our approach FIIQA are 0.0, 0.503, 0.670, and 1.0, respectively. From 0 to 1, the illumination quality of face images are from low to high. 
 
 - title: No reference Quality Assessment Algorithm for Image Exposure Based on Neural Network (Patent)
-  author: Lin Zhang, Lijun Zhang, Xiao Liu, and Ying Shen, accepted by The Patent Office of the People's Republic of China.
+  author: Lin Zhang, Lijun Zhang, Xiao Liu, and Ying Shen, announced by The Patent Office of the People's Republic of China.
+
+- title: Image quality assessment method, device, storage medium and electronic device (Patent)
+  author: Wendi Hu, Lin Zhang, and Lijun Zhang, announced by The Patent Office of the People's Republic of China.
+
+- title: Method and device for evaluating image exposure degree (Patent)
+  author: Wendi Hu, Fei Li, Lin Zhang, and Lijun Zhang, announced by The Patent Office of the People's Republic of China.

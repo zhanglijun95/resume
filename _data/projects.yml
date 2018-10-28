@@ -3,14 +3,14 @@
   role: Head of the Development Group & Primary Developer
   duration: Oct, 2016 &mdash; Jan, 2018
   description:
-    - detail: Research on image quality evaluation for mobile camera.
+    - detail: Researched on image quality evaluation for mobile camera.
     - detail: Responsible for the algorithm development of multidimensional quality evaluation of images, including noise, blur, exposure, contrast and overall quality of images.
-    - detail: Establish an image exposure database by code generation, and propose a method for image exposure assessment based on convolutional neural network.
+    - detail: Established an image exposure database by code generation, and proposed a method for image exposure assessment based on convolutional neural network.
 
 - project: CCF-Tencent Rhino Bird Fund Project
   role: Primary Developer
   duration: Jan, 2016 &mdash; Oct, 2016
   description:
-    - detail: Research on multi biometric fusion based on smart phone and cloud computing platform.
-    - detail: Responsible for a part of this project which is face images illumination quality assessment, namely evaluating illumination quality for face images.
-    - detail: Establish a face database with diverse illumination situations by illumination transfer algorithm, and  propose a method for face images illumination quality assessment based on convolutional neural network.
+    - detail: Researched on multi biometric fusion based on smart phone and cloud computing platform.
+    - detail: Responsible for key part of this project which was face images illumination quality assessment, namely evaluating illumination quality for face images.
+    - detail: Established a face database with diverse illumination situations by illumination transfer algorithm, and proposed a method for face images illumination quality assessment based on convolutional neural network.

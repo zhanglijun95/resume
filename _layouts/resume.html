@@ -64,7 +64,7 @@
             <ul class="resume-item-list">
               <li>Overall GPA: {{ education.OverallG }} &bull; Average Score: {{ education.AverageG }} {% if education.Rank %}&bull; Rank: {{ education.Rank }}{% endif %}</li>
               {% if education.T %}<li>TOEFL: {{ education.T }} &bull; GRE: {{ education.G }}</li>{% endif %}
-              <li>Related Courses: {{ education.Courses }}</li>
+              <li>Relevant Courses: {{ education.Courses }}</li>
             </ul>
           </p>
 
@@ -97,6 +97,12 @@
           {% if research.media %}
           <p class="resume-item-copy">
             <embed src="{{ research.media }}" alt="Video loading failure! Try Chrome please." width="640" height="480" allowFullScreen="true" align="middle" type="application/x-shockwave-flash">
+            </embed>
+          </p>
+          {% endif %}
+          {% if research.media2 %}
+          <p class="resume-item-copy">
+            <embed src="{{ research.media2 }}" alt="Video loading failure! Try Chrome please." width="640" height="480" allowFullScreen="true" align="middle" type="application/x-shockwave-flash">
             </embed>
           </p>
           {% endif %}

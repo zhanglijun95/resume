@@ -1,27 +1,27 @@
 # Researches
-- title: Application of Generative Adversarial Network in Specific Problems
-  leader: Directed by Prof. Lin Zhang
-  duration: May, 2018 &mdash; Present
-  details:
-    - detail: Research on the application of GAN, including super-resolution (SR) and no-reference image quality assessment (NR-IQA).
-    - detail: Try to promote the performance of SRGAN by introducing Wasserstein distance and gradient magnitude similarity deviation into the original loss function. Wasserstein distance could improve the stability of training process, while gradient magnitude similarity deviation could reflect the similarity of two patterns better than mean square error.
-    - detail: Propose a NR-IQA method in which generating image quality feature map of a single image according to the trained GAN of pairs of distorted/reference images. This new method would has the advantages of both NR-IQA and FR-IQA.
-    - detail: A paper is in preparation to submit to CVPR2019.
-
 - title: Image Automatic Exposure Correction
-  leader: Directed by Prof. Lin Zhang
-  duration: Mar, 2018 &mdash; Present
+  leader: Advised by Prof. Lin Zhang
+  duration: Jan, 2018 &mdash; Present
   details:
-    - detail: Research on automatic exposure correction of photograph.
-    - detail: Try to model this problem with markov random field (MRF) and propose a convolutional neural network based unsupervised learning scheme to solve MRF.
-    - detail: Deploy this end-to-end method to mobile platform.
-    - detail: A paper is in preparation to submit to CVPR2019.
+    - detail: Conducted research on automatic exposure correction of photograph.
+    - detail: Successfully modeled image automatic exposure correction mechanism with Markov Random Field (MRF) and proposed an unsupervised learning solution based on convolutional neural network.
+    - detail: Successfully deployed image automatic exposure correction algorithm on the mobile platform. 
+    - detail: A research paper is in preparation for submission to CVPR2019.
   media: //player.youku.com/player.php/sid/XMzY4MTY4NzE2OA==/v.swf
+  media2: //player.youku.com/player.php/sid/XMzg5MTU3MjA3Ng==/v.swf
+
+- title: Application of Generative Adversarial Network (GAN) in Specific Problems
+  leader: Advised by Prof. Lin Zhang
+  duration: May, 2018 &mdash; Sept, 2018
+  details:
+    - detail: Researched on the application of GAN, including super-resolution (SR) and no-reference image quality assessment (NR-IQA).
+    - detail: Introduced Wasserstein distance and gradient magnitude similarity deviation into the original loss function to promote the performance of SRGAN.
+    - detail: Proposed to generate image quality feature map of a single input image by Pix2Pix-GAN trained on pairs of distorted images and their corresponding quality feature maps.
 
 - title: Image Quality Assessment
-  leader: Directed by Prof. Lin Zhang
-  duration: Jan, 2016 &mdash; Present
+  leader: Advised by Prof. Lin Zhang
+  duration: Jan, 2016 &mdash; Dec, 2018
   details:
-    - detail: Research on no-reference image quality assessment (NR-IQA). Mainly focus on image illumination quality and exposure quality.
-    - detail: Establish a database of face images with various illumination situations and propose a convolutional neural network method to evaluate face images illumination quality. A paper has been published by ICONIP 2017 (CCF-C, indexed by EI). Information of the paper can be found in Publications.
-    - detail: Propose a method towards automatic image exposure level assessment. A paper has been published by ICME 2018 (CCF-B, indexed by EI). A pattern has been accepted by The Patent Office of the People's Republic of China. Information of the paper and pattern can be found in Publications.
+    - detail: Researched on no-reference image quality assessment (NR-IQA). Mainly focused on face image illumination quality and image exposure quality.
+    - detail: Established a database of face images with various illumination situations and propose a convolutional neural network method to evaluate face images illumination quality. A research paper has been published on ICONIP 2017 (CCF-C, indexed by EI).
+    - detail: Proposed an algorithm towards automatic image exposure level assessment. A research paper has been published by ICME 2018 (CCF-B, indexed by EI). 
