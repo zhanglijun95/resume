@@ -7,8 +7,8 @@
     - detail: Successfully modeled image automatic exposure correction mechanism with Markov Random Field (MRF) and proposed an unsupervised learning solution based on convolutional neural network.
     - detail: Successfully deployed image automatic exposure correction algorithm on the mobile platform. 
     - detail: A research paper has been submitted.
-  media: //player.youku.com/player.php/sid/XMzY4MTY4NzE2OA==/v.swf
-  media2: //player.youku.com/player.php/sid/XMzg5MTU3MjA3Ng==/v.swf
+  media: //player.youku.com/embed/XMzY4MTY4NzE2OA==
+  media2: //player.youku.com/embed/XMzg5MTU3MjA3Ng==
 
 - title: Application of Generative Adversarial Network (GAN) in Specific Problems
   leader: Advised by Prof. Lin Zhang
